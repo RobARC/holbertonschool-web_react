@@ -49,6 +49,36 @@ const PT = printTeacher("John", "Doe")
 
 console.log(PT);
 
+//task 4
+interface IstudentClass {
+    firstName: string;
+    lastName: string;
+    workOnHome(): string;
+    displayName(): string;
+}
+
+interface IstudentConstructor {
+    new(firstName: string, lastName: string): IstudentClass;
+}
+const StudentClass: IstudentConstructor = class StudentClass implements IstudentClass {
+        firstName: string;
+        lastName: string;
+
+        constructor (firstName: string, lastName: string){
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }
+        public workOnHome(): string{
+            return `Currently working`;
+        }
+        public displayName(): string{
+            return this.firstName 
+        }
+
+}
+
+
+
 
 
 

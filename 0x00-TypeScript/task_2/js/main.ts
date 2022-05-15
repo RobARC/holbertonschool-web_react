@@ -63,7 +63,25 @@ function executeWork(employee: DirectorInterface | TeacherInterface): string {
 }
 
 //example
-console.log(executeWork(createEmployee(200)));
+//console.log(executeWork(createEmployee(200)));
 //Getting to work
-console.log(executeWork(createEmployee(1000)));
+//console.log(executeWork(createEmployee(1000)));
 //Getting to director tasks
+
+//task 7
+
+type Subjetcs = 'Math' | 'History';
+
+function teachClass(todayClass: Subjetcs): string {
+    if (todayClass === 'Math'){
+        return `Teaching Math`;
+    } else if (todayClass === 'History'){
+        return `Teaching History`;
+    }
+}
+
+//Example
+//console.log(teachClass('Math'));
+//Teaching Math
+//console.log(teachClass('History'));
+//Teaching History

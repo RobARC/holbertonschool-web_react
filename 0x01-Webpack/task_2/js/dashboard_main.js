@@ -1,6 +1,8 @@
 const $ = requery('jquery');
 const _ = require("lodash");
+import "../css/main.css";
 
+const body = $('body');
 let count = 0;
 
 $('body').append('<p>Holberton Dashboard</p>');

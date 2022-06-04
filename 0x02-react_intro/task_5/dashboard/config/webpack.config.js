@@ -3,11 +3,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    mode: 'production',
+    mode: 'development',
+    devtool: "inline-source-map",
     entry: './src/indexjs',
     output: {
         filename: "bundle.js",
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "./dist"),
     },
     performance: {
         maxAssetSize: 1000000,
@@ -16,6 +17,8 @@ module.exports = {
     devServer: {
         hot: true,
         contentBase: path.resolve(__dirname, "./dist"),
+        compress: true,
+        port: 8564,
     },
     plugins: [
         new CleanWebpackPlugin(),

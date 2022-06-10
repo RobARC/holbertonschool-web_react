@@ -1,0 +1,19 @@
+.App-header {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: left;
+    color: #E1394E;
+    border-bottom: 3px solid #E1394E;
+    padding: 6px;
+  }
+  
+  .App-header h1 { 
+    margin: auto auto auto 0;
+    color: #E1394E;
+    padding: 2px;
+  }
+
+  .App-header img {
+    width: 190px;
+  }

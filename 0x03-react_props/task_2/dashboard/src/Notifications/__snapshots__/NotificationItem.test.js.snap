@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test NotificationItem Component should render component works without crashing 1`] = `
+<ul>
+  <li>
+    'New course available'
+  </li>
+  <li>
+    "New resume available"
+  </li>
+  <li
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<strong>Urgent requirement</strong>- complete by EOD",
+      }
+    }
+  />
+</ul>
+`;

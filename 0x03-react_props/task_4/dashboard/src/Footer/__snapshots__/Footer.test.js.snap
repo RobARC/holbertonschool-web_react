@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test login Component verify it renders without crashing 1`] = `
+<footer
+  className="App-footer"
+>
+  <p>
+    Copyright 
+    2022
+     - 
+    Holberton School main dashboard
+  </p>
+</footer>
+`;

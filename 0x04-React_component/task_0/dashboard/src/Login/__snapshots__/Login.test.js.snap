@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test login Component verify it renders without crashing 1`] = `
+<Fragment>
+  <div
+    className="Login"
+  >
+    <p>
+      Login to access the full dashboard
+    </p>
+    <label
+      htmlFor="Email"
+    >
+      Email
+    </label>
+    <input
+      id="Email"
+      name="Email"
+      placeholder="Email..."
+      type="email"
+    />
+    <label
+      htmlFor="Password"
+    >
+      Password
+    </label>
+    <input
+      id="Password"
+      name="Password"
+      placeholder="Password..."
+      type="password"
+    />
+    <button>
+      OK
+    </button>
+  </div>
+</Fragment>
+`;
